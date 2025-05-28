@@ -1,0 +1,22 @@
+*   Java ArrayList is a part of the collections framework and it is a class of java.util package.
+    It provides us with dynamic-sized arrays in Java.
+
+*   The main advantage of ArrayList is that, unlike normal arrays, we don't need to mention the
+    size when creating ArrayList. It automatically adjusts its capacity as elements are added or
+    removed.
+*   It may be slower than standard arrays, but it is helpful when the size is not known in advance.
+    Note that creating a large fixed-sized array would cause a waste of space.
+*   Since ArrayList is part of the collections framework, it has better interoperability with
+    other collections. For example, conversion to a HashSet is straightforward.
+*   With generics, ArrayList<T> ensures type safety at compile-time.
+
+*   Syntax of ArrayList :-
+                         ArrayList<Integer> arr = new ArrayList<Integer>();
+
+*Some Key Points of ArrayList in Java:-
+
+1. ArrayList is Underlined data Structure Resizable Array or Growable Array.
+2. ArrayList Duplicates Are Allowed.
+3. Insertion Order is Preserved.
+4. Heterogeneous objects are allowed.
+5. Null insertion is possible.

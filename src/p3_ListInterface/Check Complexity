@@ -1,0 +1,11 @@
+Complexity of List Interface in Java:
+
+Operation                           Time Complexity                  pace Complexity
+
+Adding Element in List Interface          O(1)                             O(1)
+
+Remove Element from List Interface        O(N)                             O(N)
+
+Replace Element in List Interface         O(N)                             O(N)
+
+Traversing List Interface                 O(N)                             O(N)

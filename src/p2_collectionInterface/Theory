@@ -1,0 +1,43 @@
+" The Collection interface in Java is a core member of the Java Collections Framework located
+in the java.util package. It is one of the root interfaces of the Java Collection Hierarchy.
+The Collection interface is not directly implemented by any class. Instead, it is implemented
+indirectly through its sub-interfaces like List, Queue, and Set. "
+
+
+
+Methods of Collection Interface:
+
+1. add(E e) :-	Ensures that this collection contains the specified element (optional operation).
+2. addAll(Collection<? extends E> c) :-	Adds all the elements in the specified collection to this
+                                        collection (optional operation).
+3. clear() :-		Removes all the elements from this collection (optional operation).
+4. contains(Object o) :-		Returns true if this collection contains the specified element.
+5. containsAll(Collection<?> c) :- Returns true if this collection contains all the elements
+                                   in the specified collection.
+6. equals(Object o) :- Compares the specified object with this collection for equality.
+7. hashCode()	 :-	Returns the hash code value for this collection.
+8. isEmpty()	 :-	Returns true if this collection contains no elements.
+9. iterator() :-		Returns an iterator over the elements in this collection.
+10. parallelStream() :-		Returns a possibly parallel Stream with this collection as its source.
+11. remove(Object o) :-		Removes a single instance of the specified element from this collection, if it is present (optional operation).
+12. removeAll(Collection<?> c)	 :-	Removes all of this collection's elements that are also
+                                    contained in the specified collection (optional operation).
+13. removeIf(Predicate<? super E> filter) :- Removes all the elements of this collection that
+                                             satisfy the given predicate.
+14. retainAll(Collection<?> c) :- Retains only the elements in this collection that are
+                                 contained in the specified collection (optional operation).
+15. size()	 :-	Returns the number of elements in this collection.
+16. spliterator() :- Creates a Spliterator over the elements in this collection.
+17. stream() :-		Returns a sequential Stream with this collection as its source.
+18. toArray() :-	Returns an array containing all the elements in this collection.
+19. toArray(IntFunction<T[]> generator)	 :-	Returns an array containing all the elements
+                                            in this collection, using the provided generator
+                                            function to allocate the returned array.
+20. toArray(T[] a) :- Returns an array containing all the elements in this collection;
+                      the runtime type of the returned array is that of the specified array.
+
+" Method Declared in Iterable Interface:"
+
+Method and its Description
+
+1. forEach(Consumer<? super T> action)	 :-	Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.

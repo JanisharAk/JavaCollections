@@ -1,0 +1,8 @@
+=> The Java Collection framework provides a Stack class, which implements a Stack data structure.
+ The class is based on the basic principle of LIFO (last-in-first-out). Besides the basic push
+ and pop operations, the class also provides three more functions, such as empty, search, and peek.
+
+=>   The Stack class extends Vector and provides additional functionality for stack operations,
+     such as push, pop, peek, empty, and search.
+=>   The Stack class can be considered as a subclass of Vector because it inherits all of its
+     methods and properties.

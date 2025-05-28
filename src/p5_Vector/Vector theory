@@ -1,0 +1,16 @@
+=>  The Vector class in Java implements a growable array of objects. Vectors were legacy classes,
+    but now it is fully compatible with collections. It comes under java.util package and implement
+    the List interface.
+
+* Key Features of Vector:
+
+1. It expands as elements are added.
+2. Vector class is synchronized in nature means it is thread-safe by default.
+3. Like an ArrayList, it maintains insertion order.
+4. It allows duplicates and nulls.
+5. It implements List, RandomAccess, Cloneable, and Serializable.
+
+*  Vector Class Declaration:-
+     public class Vector<E> extends AbstractList<E>  implements
+                                          List<E>, RandomAccess, Cloneable, Serializable
+     Here, E is the type of element.

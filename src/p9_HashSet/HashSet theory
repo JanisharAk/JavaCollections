@@ -1,0 +1,13 @@
+=> HashSet in Java implements the Set interface of Collections Framework.
+   It is used to store the unique elements and it doesn't maintain any specific order of elements.
+
+- Can store the Null values.
+- Uses HashMap (implementation of hash table data structure) internally.
+- Also implements Serializable and Cloneable interfaces.
+- HashSet is not thread-safe. So to make it thread-safe, synchronization is needed externally.
+
+Internal Working of a HashSet:-
+ All the classes of the Set interface are internally backed up by Map.
+ HashSet uses HashMap for storing its object internally. You must be wondering
+ that to enter a value in HashMap we need a key-value pair, but in HashSet,
+ we are passing only one value.
